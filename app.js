@@ -57,6 +57,8 @@ async function fetchGitHubUserInfo(username) {
   }
 }
 
+fetchGitHubUserInfo("JoshuaBoothby");
+
 // Part 2: 2
 async function listGitHubUserRepos(username) {
   try {
@@ -74,5 +76,4 @@ async function listGitHubUserRepos(username) {
   }
 }
 
-fetchGitHubUserInfo("JoshuaBoothby");
 listGitHubUserRepos("JoshuaBoothby");
